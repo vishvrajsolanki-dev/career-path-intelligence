@@ -1,0 +1,17 @@
+# Virtual environment — never push this
+venv/
+
+# Raw dataset — 1.6 million rows, too large for GitHub
+data/raw_jobs.csv
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
